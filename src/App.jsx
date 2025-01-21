@@ -1,5 +1,6 @@
 import React from "react";
-import WindowResizeExample from "./Windowresize";
+
+import PollingExample from "./PollingData";
 
 
 
@@ -9,7 +10,7 @@ function App() {
     <div className="text-center">
       <h2>Performance with React.memo HOC</h2>
       <div className="d-flex justify-content-center">
-      <WindowResizeExample></WindowResizeExample>
+        <PollingExample></PollingExample>
       </div>
       <h1 className="position-fixed bottom-0 start-0 text-center w-100">ReactJS Training in Hyderabad</h1>
     </div>
