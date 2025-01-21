@@ -1,5 +1,6 @@
 import React from "react";
-import ProductApp from "./Productlist";
+import UpdateTitleExample from "./DocTitle";
+
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="text-center">
       <h2>Performance with React.memo HOC</h2>
       <div className="d-flex justify-content-center">
-      <ProductApp></ProductApp>
+        <UpdateTitleExample></UpdateTitleExample>
       </div>
       <h1 className="position-fixed bottom-0 start-0 text-center w-100">ReactJS Training in Hyderabad</h1>
     </div>
